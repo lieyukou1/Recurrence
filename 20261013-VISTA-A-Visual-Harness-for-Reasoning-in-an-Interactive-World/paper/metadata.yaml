@@ -1,0 +1,11 @@
+# 论文元数据 —— 只记录事实，不写解读
+title: "VISTA: A Visual Harness for Reasoning in an Interactive World"
+authors: ["Qiushi Han", "Keya Hu", "Linlu Qiu", "Cathy Wu", "Kaiming He"]  # 前三为共同一作
+year: 2026
+venue: "arXiv preprint (cs.AI)"   # 会议/期刊，如 NeurIPS 2025
+source: "https://arxiv.org/abs/2610.02200"   # 原文链接（arXiv / DOI / 官网）
+arxiv_id: "2610.02200v1"
+code: "https://github.com/joshhhhhan/VISTA"   # 官方或社区复现仓库（可选）
+tags: [multimodal, agent, visual-harness, long-horizon, memory, arc-agi-3, vlm, computer-use]
+started_at: "20261013"   # 开工日
+pdf_sha256: "40c95e5ebed5f50fe696462177a2561352027ef85fd28293dbd5e2cc221e838a"   # original.pdf 校验值，防误改

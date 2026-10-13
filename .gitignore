@@ -1,0 +1,34 @@
+# ===== Recurrence 工作区 .gitignore =====
+# 规范见 AGENTS.md §5（环境隔离）与 §7（SOP 第 8 步：确认大文件与虚拟环境已被忽略）
+
+# ---- 虚拟环境 / 依赖缓存（环境随论文走，但不入库）----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- 可重渲的派生页图（AGENTS.md §6：阅读的输入，非最终产物）----
+# 换设备后用 _scripts/pdf-pages.ps1 一条命令即可重生成
+**/paper/extracted/pages/
+
+# ---- 大数据集 / 模型权重（AGENTS.md §5.4：体积大、可重建）----
+**/reproduction/data/*
+!**/reproduction/data/.gitkeep
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.swp
+
+# ---- 密钥 / 本地凭证 ----
+.env
+*.key
+*.pem

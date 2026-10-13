@@ -1,0 +1,11 @@
+# 论文元数据 —— 只记录事实，不写解读
+title: "{{TITLE}}"
+authors: []
+year:
+venue:            # 会议/期刊，如 NeurIPS 2025
+source: "{{ARXIV}}"   # 原文链接（arXiv / DOI / 官网）
+arxiv_id:
+code:             # 官方或社区复现仓库（可选）
+tags: []          # 主题标签，如 [transformer, attention]
+started_at: "{{DATE}}"   # 开工日
+pdf_sha256:       # 可选：记录 original.pdf 校验值，防误改

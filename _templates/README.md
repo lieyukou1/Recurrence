@@ -23,8 +23,9 @@
 - [ ] 图表存档（`reading/figures/`）
 - [ ] 浓缩提纲（`OUTLINE.md`）
 - [ ] 登记总索引（根目录 `CATALOG.md`）
-- [ ] 隔离环境建立（`reproduction/env/`）
-- [ ] 复现跑通并记录（`reproduction/`）
+- [ ] 复现价值评估（`OUTLINE.md` / `reproduction/README.md`）——按 AGENTS.md §4.3 定级
+- [ ] 隔离环境建立（`reproduction/env/`）——*级别为「低」时标注"不适用"*
+- [ ] 复现跑通并记录（`reproduction/`）——*级别为「低」时标注"不适用"*
 
 ## 一句话结论
 

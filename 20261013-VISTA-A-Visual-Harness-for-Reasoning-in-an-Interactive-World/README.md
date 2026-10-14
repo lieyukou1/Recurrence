@@ -23,10 +23,11 @@
 - [x] 图表存档（`reading/figures/`）
 - [x] 浓缩提纲（`OUTLINE.md`）
 - [x] 登记总索引（根目录 `CATALOG.md`）
-- [ ] 隔离环境建立（`reproduction/env/`）——**暂缓**
-- [ ] 复现跑通并记录（`reproduction/`）——**暂缓**
+- [x] 复现价值评估（`OUTLINE.md` / `reproduction/README.md`）——**裁定：不复现**
+- [ ] 隔离环境建立（`reproduction/env/`）——**不适用（已裁定不复现）**
+- [ ] 复现跑通并记录（`reproduction/`）——**不适用（已裁定不复现）**
 
-> **复现层暂缓说明（20261013）**：本机无 NVIDIA GPU（i7-10510U + Intel UHD 集显 + 15.7 GB RAM），论文全开源路线的 GLM-5.3 Flash **320B** 权重无法本地运行；仅剩「客户端 + 云模型 API」路线（闭源 Claude/Codex CLI 或 GLM 云 API），需 API key 与费用，待定。当前状态：**已精读，未复现**。
+> **复现裁定（20261013）：不复现。** 本论文为"阅读型"论文——无训练参数、无新架构、无可推导理论，harness 本身是纯工程；且头牌结果绑死闭源模型（Claude Opus 5.0 / GPT-5.6 Sol）与其 CLI + API key，本地拿不到 100.00；本机亦无 NVIDIA GPU（i7-10510U + Intel UHD + 15.7 GB RAM），全开源路线 GLM-5.3 Flash **320B** 跑不动。裁定理由与"何时值得重启"详见 [`reproduction/README.md`](./reproduction/README.md)。当前状态：**已精读，裁定不复现**。
 
 ## 一句话结论
 

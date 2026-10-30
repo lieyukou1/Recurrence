@@ -1,0 +1,3 @@
+# 关键图表截图存放目录
+# 命名规范：fig-<编号>-<简述>.png，例如 fig-01-architecture.png
+# 与 reading/summary.md 中的 Fig 引用保持一致

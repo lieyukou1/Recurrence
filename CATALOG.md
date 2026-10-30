@@ -63,6 +63,7 @@
 | 开工日 | 论文 | 一句话结论 | 状态 | 标签 |
 | --- | --- | --- | --- | --- |
 | 20261013 | [VISTA: A Visual Harness for Reasoning in an Interactive World](./20261013-VISTA-A-Visual-Harness-for-Reasoning-in-an-Interactive-World/) · [提纲](./20261013-VISTA-A-Visual-Harness-for-Reasoning-in-an-Interactive-World/OUTLINE.md) | 视觉原生 agent harness（原图观测+无损视觉记忆+主动视觉检查），把多模态模型既有推理能力释放，ARC-AGI-3 上 RHAE 达满分 100 | 已精读 | multimodal, agent, visual-harness, long-horizon-memory, arc-agi-3 |
+| 20261014 | [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](./20261014-MemMA-Coordinating-the-Memory-Cycle/) · [提纲](./20261014-MemMA-Coordinating-the-Memory-Cycle/OUTLINE.md) | 把长期记忆看成"构建→检索→使用"闭环：前向由 Meta-Thinker 统筹记忆编辑与检索改写，后向在记忆提交前用自演化探针 QA 修错；不改存储后端，LoCoMo ACC 75.66→81.58、LongMemEval-S 82.0→94.0 | 已精读 · **最小验证未通过**（Table 1 三档台阶未复现：实测 ACC 6.58/3.95/5.92 vs 论文 52.60/54.60/59.21，非单调且差约 10 倍；根因未归因） | agent, memory, multi-agent, long-horizon-memory |
 
 ---
 

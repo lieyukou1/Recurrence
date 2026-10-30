@@ -19,6 +19,15 @@ __pycache__/
 **/reproduction/data/*
 !**/reproduction/data/.gitkeep
 
+# ---- 第三方代码仓库（只读研究用，非论文产出）----
+_repos/
+
+# ---- 外部素材与独立项目（不属于论文产出，且可能含 .env）----
+外部/
+_projects/
+*.log
+新项目.md
+
 # ---- 系统 / 编辑器 ----
 .DS_Store
 Thumbs.db

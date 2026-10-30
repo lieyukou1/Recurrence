@@ -1,0 +1,19 @@
+# 论文元数据 —— 只记录事实，不写解读
+title: "MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution"
+authors:
+  - Minhua Lin        # 1 Penn State
+  - Zhiwei Zhang      # 1 Penn State
+  - Hanqing Lu        # 2 Amazon
+  - Hui Liu           # 3 Microsoft
+  - Xianfeng Tang     # 2 Amazon
+  - Qi He             # 3 Microsoft
+  - Xiang Zhang       # 1 Penn State
+  - Suhang Wang       # 1 Penn State
+year: 2026
+venue: "arXiv preprint (cs.AI)"   # v2, 2026-09-03
+source: "https://arxiv.org/abs/2603.18718"
+arxiv_id: "2603.18718v2"
+code: "https://github.com/ventr1c/memma"
+tags: [agent, memory, multi-agent, long-horizon-memory, multi-agent-coordination]
+started_at: "20261014"
+pdf_sha256: "E619D9E5521A7D0F6553C859FAA6F74CD8B677B1627944D3C0A4DD41CC99B47D"
